@@ -1,0 +1,20 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title style="text-align: center">Registro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-item>
+        <ion-input [(ngModel)]="us" placeholder="Usuario"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input [(ngModel)]="pswd" placeholder="Contraseña"></ion-input>
+    </ion-item>
+    <button ion-button block (click)="clickRR()">Registrar</button>
+
+</ion-content>
